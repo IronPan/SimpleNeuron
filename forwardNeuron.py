@@ -1,7 +1,7 @@
-from unit import unit
-from addGate import addGate
-from multiplyGate import multiplyGate
-from sigmoidGate import sigmoidGate
+from gate.unit import unit
+from gate.addGate import addGate
+from gate.multiplyGate import multiplyGate
+from gate.sigmoidGate import sigmoidGate
 
 a = unit(1,0)
 b = unit(2,0)
